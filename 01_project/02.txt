@@ -1,0 +1,15 @@
+1. buat logo
+2. nama web AgReed  
+- material design framework like bootsrap
+3. flask, bootstrap/material design (main), 
+4. -buat home page (main  idea)
+   -buat register page (1 form to all)
+   -buat login page
+   -buat search box
+   -validasi data
+   - upload foto
+  -proses payment
+  - upload data (csv/gambar) data ada 2 (picture dan csv)
+  - database hanya 1 make many coulumns
+  - Dashboard Admin
+  -

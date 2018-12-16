@@ -1,0 +1,6 @@
+1. Object Recognition on Vehicle
+2. Fitting size on T-Shirt, creating android app
+3. Creating qrCode for detect item, Rendering Code, code Reader Using Python, creating qrcode in android
+
+
+<--- 2. Fitting Size --->

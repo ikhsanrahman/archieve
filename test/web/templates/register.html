@@ -1,0 +1,23 @@
+{%extends 'layout.html'%}
+{%import "bootstrap/wtf.html" as wtf%}
+
+{%block body%}
+<div class="container " >
+	<h1>Register</h1>
+	<form class="form-sigin" method="POST" action="/register">
+		<h2 class="form-signin-heading">Sign Up</h2>
+		{{ form.hidden_tag() }}
+		{{ wtf.form_field( form.username ) }}
+		{{ wtf.form_field( form.email ) }}
+		{{ wtf.form_field( form.password ) }}
+		{{ wtf.form_field( form.job ) }}
+		{{ wtf.form_field( form.address ) }}
+		{{ wtf.form_field( form.role ) }}
+		
+		<div class="text-left">
+			<button class="btn btn-primary" type="submit">Submit</button>
+		</div>
+		
+</div>
+
+{%endblock%}
